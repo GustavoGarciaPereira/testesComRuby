@@ -55,12 +55,21 @@ print "Primero nome",chave_valor["primeiro nome"],"\n"
 print "Sobre nome",chave_valor["sobrenome"],"\n"
 print "idade",chave_valor["idade"],"\n"
 
-print "\n\n========================================="
-print "\nPercorrendo de dados chave valor com each\n"
-print "=========================================\n\n"
+print "\n\n=========================================="
+print "\nPercorrendo os dados chave valor com each\n"
+print "==========================================\n\n"
 
 chave_valor["mais um"] = "mais um valor"
 
 chave_valor.each do |chave, valor|
-    puts "#{chave}: #{valor}"
+    puts "chave valor-> #{chave}: #{valor}"
+end
+
+
+print "\n\n============================================="
+print "\n= Percorrendo os dados de um vetor com each =\n"
+print "=============================================\n\n"
+
+listaDeCompras.each do |lista|
+    puts "lista de compras -> #{lista}"
 end
