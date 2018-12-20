@@ -59,6 +59,8 @@ print "\n\n========================================="
 print "\nPercorrendo de dados chave valor com each\n"
 print "=========================================\n\n"
 
+chave_valor["mais um"] = "mais um valor"
+
 chave_valor.each do |chave, valor|
     puts "#{chave}: #{valor}"
 end
