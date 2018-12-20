@@ -1,3 +1,5 @@
+#gustavo garcia pereira
+
 listaDeCompras = [
     'agua',
     'refrigerante',
